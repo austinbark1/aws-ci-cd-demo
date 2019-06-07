@@ -14,7 +14,7 @@ public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		response.getWriter().write("<h1>Application successfully deployed using AWS Elastic Beanstalk!</h1>");
+		response.getWriter().write("<h1>Application successfully deployed using CodePipeline!</h1>");
 	}
 
 }
